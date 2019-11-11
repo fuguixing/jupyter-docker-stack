@@ -1,0 +1,9 @@
+# Copyright (c) Fugui Xing.
+# Distributed under the terms of the MIT License.
+
+# Container that runs data science services
+notebook:
+    build: .
+    hostname: notebook
+    ports:
+      - "8888:8888"
