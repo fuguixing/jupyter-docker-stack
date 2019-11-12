@@ -3,7 +3,7 @@
 
 # Container that runs data science services
 notebook:
-    build: .
+    image: fuguixing/jupyter-docker-stack:latest
     hostname: notebook
     ports:
       - "8888:8888"
